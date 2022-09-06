@@ -16,6 +16,7 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+<<<<<<< HEAD
                 <!--  一覧ページへのリンクを追加 -->
         <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
           <x-nav-link :href="route('tweet.index')" :active="request()->routeIs('tweet.index')">
@@ -28,6 +29,8 @@
             {{ __('Create') }}
           </x-nav-link>
         </div>
+=======
+>>>>>>> 20bd9855a3087bf886a87e49d377754d057ce9de
             </div>
 
             <!-- Settings Dropdown -->
